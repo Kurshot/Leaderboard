@@ -1,0 +1,27 @@
+.filterBtn{
+    font-weight: 500;
+    padding: 1px 15px;
+    border: none;
+    margin-right: 0;
+    height: 40px;
+    background: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.filterBtn.active{
+    background-color: white;
+    border-radius: 300px;
+    border: 1px solid $bordercolor;
+}
+
+.viewBtn{
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: $viewbtncolor;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+

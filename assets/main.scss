@@ -1,0 +1,10 @@
+@import 'variables/colors';
+@import 'layout/leaderboard';
+@import 'components/images';
+@import 'components/buttons';
+
+body{
+    background: $bodybg;
+    font-family: 'Open Sans', sans-serif;
+}
+

@@ -1,0 +1,79 @@
+.lboard{
+    &__body{
+        display: none;
+    }
+    background-color: $leaderboardbg;
+    border-radius: 20px;
+    padding: 1% 2% 4% 2%;
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 30%;
+    &__heading{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 900;
+        color: $textcolor;
+    }
+    &__filterButtons{
+        text-align: center;
+        margin-left: 1%;
+        display: flex;
+        justify-content: center;
+    }
+    &__buttons{
+        justify-content: center;
+        width: 215px;
+        height: 48px;
+        border-radius: 300px;
+        display: flex;
+        align-items: center;
+        background-color: $bodybg;
+    }
+    &__user{
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 20px;
+    }
+    &__userDeneme{
+        display: flex;
+    }
+    &__userRanking{
+        font-size: 24px;
+        font-weight: 900;
+        color: $textcolor;
+        border: 0.5px solid $bordercolor;
+        padding-top: 5px;
+        padding-left: 10px;
+        border-radius: 500px;
+        width: 80px;
+        height: 55px;
+    }
+    &__userRanking > img{
+        width: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    &__body{
+        margin-top: 35px;
+    }
+    &__userDesc{
+        margin-left: 10px;
+    }
+    &__userName{
+        font-size: 18px;
+        font-weight: 700;
+        margin-block-start: 0.3em;
+        margin-block-end: 0;
+    }
+    &__userViews{
+        margin-block-start: 0.2em;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    &__footer{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+}
