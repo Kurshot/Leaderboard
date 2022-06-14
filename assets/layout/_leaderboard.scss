@@ -1,4 +1,7 @@
 .lboard{
+    &__allTimeBody{
+        display: none;
+    }
     &__body{
         display: none;
     }
@@ -19,6 +22,7 @@
         margin-left: 1%;
         display: flex;
         justify-content: center;
+        margin-bottom: 35px;
     }
     &__buttons{
         justify-content: center;
@@ -55,7 +59,7 @@
         margin-left: 5px;
     }
     &__body{
-        margin-top: 35px;
+        // margin-top: 35px;
     }
     &__userDesc{
         margin-left: 10px;
