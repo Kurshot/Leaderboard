@@ -1,23 +1,28 @@
 .lboard {
   background-color: white;
   border-radius: 20px;
-  padding: 1% 2% 4% 2%;
-  margin-left: 30%;
-  margin-top: 3%;
-  width: 30%;
+  padding: 25px 50px 80px 50px;
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 525px;
+}
+
+.lboard__last30Body {
+  display: none;
 }
 
 .lboard__allTimeBody {
   display: none;
 }
 
-.lboard__body {
+.lboard__seeAllBody {
   display: none;
 }
 
 .lboard__heading {
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 900;
   color: #0E1126;
 }
@@ -38,8 +43,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 215px;
-  height: 48px;
+  width: 212px;
+  height: 40px;
   border-radius: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,6 +53,9 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #F2F3F7;
+  border: 1px solid #DBDFF0;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .lboard__user {
@@ -85,12 +93,17 @@
   margin-left: 5px;
 }
 
+.lboard__userRanking > div {
+  display: inline;
+  margin-right: 13px;
+}
+
 .lboard__userDesc {
   margin-left: 10px;
 }
 
 .lboard__userName {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   -webkit-margin-before: 0.3em;
           margin-block-start: 0.3em;
@@ -101,7 +114,7 @@
 .lboard__userViews {
   -webkit-margin-before: 0.2em;
           margin-block-start: 0.2em;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 200;
 }
 
@@ -121,10 +134,12 @@
   padding: 1px 15px;
   border: none;
   margin-right: 0;
-  height: 40px;
+  height: 32px;
   background: none;
   cursor: pointer;
   margin-right: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .filterBtn.active {
@@ -133,7 +148,16 @@
   border: 1px solid #DBDFF0;
 }
 
+.filterBtn:hover {
+  background-color: white;
+  border-radius: 300px;
+  border: none;
+  -webkit-box-shadow: 2px 2px 2px #DBDFF0;
+          box-shadow: 2px 2px 2px #DBDFF0;
+}
+
 .viewBtn {
+  font-size: 12px;
   height: 45px;
   border: none;
   border-radius: 10px;
@@ -142,6 +166,8 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
+  -webkit-box-shadow: 4px 4px 4px solid #0E1126;
+          box-shadow: 4px 4px 4px solid #0E1126;
 }
 
 body {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/scss/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -23,180 +23,23 @@
             <div class="lboard__filterButtons">
 
                 <div class="lboard__buttons">
-                    <button id="last30" class="filterBtn active">Last 30 Days</button>
+                    <button id="last30" class="filterBtn">Last 30 Days</button>
                     <button id="allTime" class="filterBtn">All-Time</button>
                 </div>
                 
 
             </div>
-            
-            <div class="lboard__allTimeBody">
+
+            <!-- Last 30 Days -->
+
+            <div class="lboard__last30Body">
 
                 <div class="lboard__user">
 
                     <div class="lboard__userDeneme">
 
                         <div class="lboard__userRanking">
-                            1 <img src="assets/images/pp1.jpg">
-                        </div>
-    
-                        <div class="lboard__userDesc">
-                            <p class="lboard__userName">
-                                Cheryl Correa
-                            </p>
-                            <p class="lboard__userViews">
-                                6.23M Views
-                            </p>
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="lboard__userImages">
-
-                        <img src="assets/images/img4.jpg" alt="">
-                        <img src="assets/images/img1.jpg" alt="">
-                        <img src="assets/images/img10.jpg" alt="">
-
-                    </div>
-
-                </div>
-
-                <div class="lboard__user">
-
-                    <div class="lboard__userDeneme">
-
-                        <div class="lboard__userRanking">
-                            2 <img src="assets/images/pp2.jpg">
-                        </div>
-    
-                        <div class="lboard__userDesc">
-                            <p class="lboard__userName">
-                                Rihanna
-                            </p>
-                            <p class="lboard__userViews">
-                                6.23M Views
-                            </p>
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="lboard__userImages">
-
-                        <img src="assets/images/img9.jpg" alt="">
-                        <img src="assets/images/img5.jpg" alt="">
-                        <img src="assets/images/img17.jpg" alt="">
-
-                    </div>
-
-                </div>
-
-                <div class="lboard__user">
-
-                    <div class="lboard__userDeneme">
-
-                        <div class="lboard__userRanking">
-                            3 <img src="assets/images/pp3.jpg">
-                        </div>
-    
-                        <div class="lboard__userDesc">
-                            <p class="lboard__userName">
-                                Taylor Swift
-                            </p>
-                            <p class="lboard__userViews">
-                                6.23M Views
-                            </p>
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="lboard__userImages">
-
-                        <img src="assets/images/img7.jpg" alt="">
-                        <img src="assets/images/img2.jpg" alt="">
-                        <img src="assets/images/img15.jpg" alt="">
-
-                    </div>
-
-                </div>
-
-                <div class="lboard__user">
-
-                    <div class="lboard__userDeneme">
-
-                        <div class="lboard__userRanking">
-                            4 <img src="assets/images/pp4.jpg">
-                        </div>
-    
-                        <div class="lboard__userDesc">
-                            <p class="lboard__userName">
-                                Ed Sheeran
-                            </p>
-                            <p class="lboard__userViews">
-                                6.23M Views
-                            </p>
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="lboard__userImages">
-
-                        <img src="assets/images/img6.jpg" alt="">
-                        <img src="assets/images/img4.jpg" alt="">
-                        <img src="assets/images/img8.jpg" alt="">
-
-                    </div>
-
-                </div>
-
-                <div class="lboard__user">
-
-                    <div class="lboard__userDeneme">
-
-                        <div class="lboard__userRanking">
-                            5 <img src="assets/images/pp5.jpg">
-                        </div>
-    
-                        <div class="lboard__userDesc">
-                            <p class="lboard__userName">
-                                Eminem
-                            </p>
-                            <p class="lboard__userViews">
-                                6.23M Views
-                            </p>
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="lboard__userImages">
-
-                        <img src="assets/images/img1.jpg" alt="">
-                        <img src="assets/images/img5.jpg" alt="">
-                        <img src="assets/images/img10.jpg" alt="">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="lboard__body">
-
-                <div class="lboard__user">
-
-                    <div class="lboard__userDeneme">
-
-                        <div class="lboard__userRanking">
-                            1 <img src="assets/images/pp1.jpg">
+                            <div>1</div><img src="assets/images/pp1.jpg">
                         </div>
     
                         <div class="lboard__userDesc">
@@ -226,7 +69,7 @@
 
                     <div class="lboard__userDeneme">
                         <div class="lboard__userRanking">
-                            2 <img src="assets/images/pp2.jpg"> 
+                            <div>2</div><img src="assets/images/pp2.jpg"> 
                         </div>
     
                         <div class="lboard__userDesc">
@@ -254,7 +97,7 @@
                 <div class="lboard__user">
                     <div class="lboard__userDeneme">
                         <div class="lboard__userRanking">
-                            3 <img src="assets/images/pp3.jpg"> 
+                            <div>3</div><img src="assets/images/pp3.jpg"> 
                         </div>
     
                         <div class="lboard__userDesc">
@@ -283,7 +126,7 @@
                 <div class="lboard__user">
                     <div class="lboard__userDeneme">
                         <div class="lboard__userRanking">
-                            4 <img src="assets/images/pp4.jpg"> <!--Profile picture here-->
+                            <div>4</div><img src="assets/images/pp4.jpg"> 
                         </div>
     
                         <div class="lboard__userDesc">
@@ -311,7 +154,7 @@
                 <div class="lboard__user">
                     <div class="lboard__userDeneme">
                         <div class="lboard__userRanking">
-                            5 <img src="assets/images/pp5.jpg"> <!--Profile picture here-->
+                            <div>5</div><img src="assets/images/pp5.jpg"> 
                         </div>
     
                         <div class="lboard__userDesc">
@@ -334,11 +177,501 @@
 
                 </div>
 
+
             </div>
+
+            <!-- All Time  -->
+
+            <div class="lboard__allTimeBody">
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>1</div><img src="assets/images/pp1.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                April Young
+                            </p>
+                            <p class="lboard__userViews">
+                                6.23M Views
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>2</div><img src="assets/images/pp2.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Rihanna
+                            </p>
+                            <p class="lboard__userViews">
+                                6.21M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img9.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img17.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>3</div><img src="assets/images/pp3.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Taylor Swift
+                            </p>
+                            <p class="lboard__userViews">
+                                6.12M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img7.jpg" alt="">
+                        <img src="assets/images/img2.jpg" alt="">
+                        <img src="assets/images/img15.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>4</div><img src="assets/images/pp4.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Ed Sheeran
+                            </p>
+                            <p class="lboard__userViews">
+                                6.02M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img6.jpg" alt="">
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img8.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>5</div><img src="assets/images/pp5.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Eminem
+                            </p>
+                            <p class="lboard__userViews">
+                                5.98M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- See All -->
+
+            <div class="lboard__seeAllBody">
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>1</div><img src="assets/images/pp1.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                April Young
+                            </p>
+                            <p class="lboard__userViews">
+                                6.23M Views
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>2</div><img src="assets/images/pp2.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Rihanna
+                            </p>
+                            <p class="lboard__userViews">
+                                6.21M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img9.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img17.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>3</div><img src="assets/images/pp3.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Taylor Swift
+                            </p>
+                            <p class="lboard__userViews">
+                                6.12M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img7.jpg" alt="">
+                        <img src="assets/images/img2.jpg" alt="">
+                        <img src="assets/images/img15.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>4</div><img src="assets/images/pp4.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Ed Sheeran
+                            </p>
+                            <p class="lboard__userViews">
+                                6.02M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img6.jpg" alt="">
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img8.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>5</div><img src="assets/images/pp5.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Eminem
+                            </p>
+                            <p class="lboard__userViews">
+                                5.98M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>6</div><img src="assets/images/pp1.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Cheryl Correa
+                            </p>
+                            <p class="lboard__userViews">
+                                4.32M Views
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>7</div><img src="assets/images/pp2.jpg">
+                        </div>
+    
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Edward Cullen
+                            </p>
+                            <p class="lboard__userViews">
+                                4.20M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img9.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img17.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+        
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>8</div><img src="assets/images/pp3.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Taylor Swift
+                            </p>
+                            <p class="lboard__userViews">
+                                6.23M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img7.jpg" alt="">
+                        <img src="assets/images/img2.jpg" alt="">
+                        <img src="assets/images/img15.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            <div>9</div><img src="assets/images/pp4.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Ed Sheeran
+                            </p>
+                            <p class="lboard__userViews">
+                                6.23M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img6.jpg" alt="">
+                        <img src="assets/images/img4.jpg" alt="">
+                        <img src="assets/images/img8.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="lboard__user">
+
+                    <div class="lboard__userDeneme">
+
+                        <div class="lboard__userRanking">
+                            10<img src="assets/images/pp5.jpg">
+                        </div>
+
+                        <div class="lboard__userDesc">
+                            <p class="lboard__userName">
+                                Eminem
+                            </p>
+                            <p class="lboard__userViews">
+                                6.23M Views
+                            </p>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="lboard__userImages">
+
+                        <img src="assets/images/img1.jpg" alt="">
+                        <img src="assets/images/img5.jpg" alt="">
+                        <img src="assets/images/img10.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+            
 
             <div class="lboard__footer">
 
-                <button class="viewBtn" id="btnViewUsers">View Everyone</button>
+                <button class="viewBtn" id="seeAll">View Everyone</button>
 
             </div>
 
